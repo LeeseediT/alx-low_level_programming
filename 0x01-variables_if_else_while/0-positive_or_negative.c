@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- * main - A program that will randomly assign a number to a variable n 
- * and then check if the the number is postive, negative or equal to zero
+ * main - A program that assigns a random number to a variable
+ * the output will check if the number is postive,negatiive or zero
  * Return: 0
  */
 int main(void)
@@ -15,13 +16,13 @@ int main(void)
 	{
 		printf("%d is postive\n", n);
 	}
-	if else (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n, n);
+		printf("%d is negative\n", n);
 	}
-	return (0);
+	return (0)
 }
