@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - A program that assigns a random number to a variable
- * the output will check if the number is postive,negatiive or zero
+ * main - Aprogram to ceck if a number is
+ * postive, negative or zero
  * Return: 0
  */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+	printf("%d is negative\n", n);
 	}
-	return (0)
+return (0);
 }
