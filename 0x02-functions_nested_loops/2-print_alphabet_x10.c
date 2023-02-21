@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - A program that writes a function that
- * prints 10 times the alphabet, in lowercase
+ * print_alphabet_x10 - Write alphabet ten times
+ * Return: void
  */
 
 void print_alphabet_x10(void)
