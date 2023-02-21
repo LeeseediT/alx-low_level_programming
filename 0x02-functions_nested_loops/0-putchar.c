@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - A program which will prints _putchar
+ * main - A program that prints _putchar
  * Return: 0
  */
+
 int main(void)
 {
 	_putchar('_');

@@ -1,1 +1,1 @@
-Functions and nested loops
+Understanding nested loops and functions
