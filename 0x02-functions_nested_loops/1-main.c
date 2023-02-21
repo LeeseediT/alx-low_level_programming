@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * main - a function that print
+ * the alphabet in lowercase
  * Return: Always 0.
  */
 int main(void)
