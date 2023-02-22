@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * 
  * Return: time between 00:00 and 23:59
  */
 void jack_bauer(void)
