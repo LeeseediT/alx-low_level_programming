@@ -1,4 +1,5 @@
 #include "main.h"
+
 int find_prime(int n, int rep);
 
 /**
@@ -8,7 +9,9 @@ int find_prime(int n, int rep);
  */
 int is_prime_number(int n)
 {
-	return (find_prime(n, 1));
+	if (n <= 1)
+	return (0);
+	return (find_prime(n, n -  1));
 }
 
 /**
@@ -19,17 +22,14 @@ int is_prime_number(int n)
  */
 int find_prime(int n, int rep)
 {
-	if ((n / rep) < rep)
+	if (rep == 1)
 	{
 		return (1);
 	}
-	if (n % rep == 0 && rep > 1)
+	if (n % rep == 0 && rep > 0)
 	{
 		return (0);
 	}
-	if (n <= 1)
-	{
-		return (0);
-	}
-	return (find_prime(n, rep + 1));
+
+	return (find_prime(n, rep - 1));
 }
